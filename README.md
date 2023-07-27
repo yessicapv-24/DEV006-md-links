@@ -10,7 +10,7 @@ mdLinks funciona a travez del ingreso de una ruta tanto relativa como absoluta a
 2. Diagrama de flujo
 Para la elaboracion de este proyecto se utilizó un diagrama de flujo que indicara el camino que iba a seguir la API.
 
-![image text] (https://drive.google.com/file/d/1SsgZMJ3WNz-ptbDocEtsFybQ0m16Q1Td/view)
+![image text] (https://github.com/yessicapv-24/DEV006-md-links/blob/main/diagrama.png)
 
 
 Archivos del proyecto
