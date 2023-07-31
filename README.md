@@ -1,5 +1,6 @@
 1. Proyecto
-   Markdown es un lenguaje de marcado ligero muy popular entre developers. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, ...) y es muy común encontrar varios archivos 
+   **Markdown** es un lenguaje de marcado ligero muy popular entre developers. Es usado en muchísimas plataformas que manejan texto plano (GitHub, foros, blogs, ...) y es muy común encontrar varios 
+   archivos 
    en ese formato en cualquier tipo de repositorio (empezando por el tradicional README.md).
 
    Estos archivos Markdown normalmente contienen links (vínculos/ligas) que muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.
@@ -48,24 +49,3 @@ ok: Mensaje fail en caso de fallo u ok en caso de éxito.
 Resultados esperados
 const mdLinks = require("md-links");
 
-mdLinks("./some/example.md")
-  .then(links => {
-    // => [{ href, text, file }, ...]
-  })
-  .catch(console.error);
-
-mdLinks("./some/example.md", { validate: true })
-  .then(links => {
-    // => [{ href, text, file, status, ok }, ...]
-  })
-  .catch(console.error);
-
-mdLinks("./some/dir")
-  .then(links => {
-    // => [{ href, text, file }, ...]
-  })
-  .catch(console.error);
-3. Uso
-modificacion de objeto validate (true - false)
-ingreso de ruta absoluta o relativa al archivo en que se esta ejecutando la funcion mdLinks.
-Salida datos Links.
